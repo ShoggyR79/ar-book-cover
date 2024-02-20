@@ -7,6 +7,7 @@ https://youtu.be/xIh7yyMQoNc
 The images are created by first capturing the book on the phone and sending it to the computer in ```./cover_images.pdf``` and then using vuforia database import created as target and downloaded to the computer (that file is ```./phd.unitypackage```)
 
 # Brief description of code
+The only script created for this project is ```Assets/vb_anim.cs```. 
 This script facilitates an interactive augmented reality (AR) experience, toggling between two sets of text information upon user interaction with a Vuforia Virtual Button. Key functionalities include:
 
 1. Text Toggling: Utilizes an array to store two text elements - bibliographic details and a personal review of the book "Who Loves You?". A virtual button press toggles the display between these texts on an AR overlay.
